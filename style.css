@@ -78,3 +78,7 @@ button:focus {
         background: #5a5a5a;
         font-weight: bold;
     }
+
+    .nav > ul > button:hover {
+        background: #3b3b3b;
+    }
