@@ -59,10 +59,22 @@ button:focus {
     }
 
     .nav > ul > input {
-        margin: 5px 5px 5px 10px;
+        margin: 7px 7px 0px 0px;
         padding: 5px;
-        float: left;
-        border-radius: 10px;
+        float: right;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
         border: none;
         text-align: left;
+    }
+
+    .nav > ul > button {
+        margin-top: 7px;
+        padding: 5px; 
+        float: right;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: none;
+        background: #5a5a5a;
+        font-weight: bold;
     }
