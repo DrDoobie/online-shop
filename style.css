@@ -7,6 +7,34 @@
 }
 
 .top > h1 {
-    font-weight: bolder;
+    padding: 5px;
+    background: white;
     font-size: 36px;
+    color: black;
+}
+
+.nav > ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.nav > ul > li {
+    float: left;
+}
+
+.nav > ul > li > a {
+    padding: 10px;
+    display: block;
+    background: #d8d8d8;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.nav > ul > li > a:hover {
+    background: #5a5a5a;
+    color: white;
 }
