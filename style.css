@@ -2,6 +2,7 @@
     zoom: 110%;
     background: #181818;
     text-align: center;
+    text-shadow: 1px 1px 5px #00000048;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
     font-size: 12px;
     color: white;
@@ -20,8 +21,33 @@ button:focus {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     background: #f1f1f1;
+}
+
+.top > h1 > a {
+    background: #f1f1f1;
     font-size: 36px;
     color: #202020;
+    text-decoration: none;
+}
+
+    .top > h1 > a:hover {
+        color: #383838;  
+    }
+
+.promo {
+    padding: 1px;
+    background: #353535;
+    overflow: hidden;
+}
+
+.promo > a {
+    text-decoration: none;
+    background: none;
+    color: #ffffff;
+}
+
+.promo > a:hover {
+    color: #c0c0c0;
 }
 
 .nav > ul {
@@ -81,4 +107,5 @@ button:focus {
 
     .nav > ul > button:hover {
         background: #3b3b3b;
+        color: #c0c0c0;
     }
