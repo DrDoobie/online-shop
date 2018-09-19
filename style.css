@@ -15,6 +15,16 @@ button:focus {
     outline: none;
 }
 
+a {
+    background: none;
+    color: #202020;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #383838;  
+}
+
 .top > h1 {
     margin-bottom: 5px;
     padding: 5px;
@@ -23,12 +33,12 @@ button:focus {
     background: #f1f1f1;
 }
 
-.top > h1 > a {
-    background: #f1f1f1;
-    font-size: 36px;
-    color: #202020;
-    text-decoration: none;
-}
+    .top > h1 > a {
+        background: #f1f1f1;
+        font-size: 36px;
+        color: #202020;
+        text-decoration: none;
+    }
 
     .top > h1 > a:hover {
         color: #383838;  
@@ -40,15 +50,15 @@ button:focus {
     overflow: hidden;
 }
 
-.promo > a {
-    text-decoration: none;
-    background: none;
-    color: #ffffff;
-}
+    .promo > a {
+        text-decoration: none;
+        background: none;
+        color: #ffffff;
+    }
 
-.promo > a:hover {
-    color: #c0c0c0;
-}
+    .promo > a:hover {
+        color: #c0c0c0;
+    }
 
 .nav > ul {
     margin-top: 0px;
@@ -109,16 +119,6 @@ button:focus {
         background: #3b3b3b;
         color: #c0c0c0;
     }
-
-.sidebar {
-    height: 100%;
-    width: 25%;
-    padding: 5px;
-    float: left;
-    overflow: hidden;
-    background: red;
-    color: yellow,
-}
 
 .content {
     margin: 25px;
