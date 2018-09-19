@@ -109,3 +109,16 @@ button:focus {
         background: #3b3b3b;
         color: #c0c0c0;
     }
+
+.sidebar {
+    height: 500px;
+    width: 25%;
+    float: left;
+    background: red;
+    color: yellow,
+}
+
+.content {
+    margin: 25px;
+    float: left;
+}
