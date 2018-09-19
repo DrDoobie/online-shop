@@ -90,34 +90,34 @@ a:hover {
 }
 
 .nav > ul > li > a:hover {
-background: #5a5a5a;
-color: white;
+    background: #5a5a5a;
+    color: white;
 }
 
 .nav > ul > input {
-margin: 7px 7px 0px 0px;
-padding: 5px;
-float: right;
-border-top-right-radius: 5px;
-border-bottom-right-radius: 5px;
-border: none;
-text-align: left;
+    margin: 7px 7px 0px 0px;
+    padding: 5px;
+    float: right;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    text-align: left;
 }
 
 .nav > ul > button {
-margin-top: 7px;
-padding: 5px; 
-float: right;
-border-top-left-radius: 5px;
-border-bottom-left-radius: 5px;
-border: none;
-background: #5a5a5a;
-font-weight: bold;
+    margin-top: 7px;
+    padding: 5px; 
+    float: right;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    background: #5a5a5a;
+    font-weight: bold;
 }
 
 .nav > ul > button:hover {
-background: #3b3b3b;
-color: #c0c0c0;
+    background: #3b3b3b;
+    color: #c0c0c0;
 }
 
 .content {
